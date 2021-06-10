@@ -707,9 +707,79 @@ footer .form-control {
   /* Styles */
 }
 
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header-intro-dashboard-img {
+    display: none;
+  }
+  .header-intro-container p {
+    font-size: 1.3rem;
+  }
+  .header-intro-buttons .btn {
+    font-size: 1.5rem;
+  }
+  .header-intro-container h2 {
+    font-size: 2.5rem;
+  }
+  .dinbot-title {
+    font-size: 3rem;
+  }
+  .card-features-first .card-title {
+    font-size: 2rem;
+  }
+  .card-features-first .card-text {
+    font-size: 1.3rem;
+  }
+  .card-features-first {
+    height: 850px !important;
+  }
+
+  .card-features .card-title {
+    font-size: 2rem;
+  }
+
+  .card-features .card-text {
+    font-size: 1.3rem;
+  }
+  .card-subtitle small {
+    font-size: 1.3rem !important;
+  }
+  .company small {
+    font-size: 1rem;
+  }
+
+  .partner-logos p {
+    font-size: 1.3rem;
+  }
+  .price-lable {
+    font-size: 1.1rem;
+  }
+  .pricing-content .card-title {
+    font-size: 1.25rem;
+  }
+  .card-price span {
+    font-size: 1rem !important;
+  }
+
+  .pricing ul li {
+    font-size: 1.3rem;
+  }
+  .pricing .card {
+    height: auto;
+  }
+  .pricing-content .btn {
+    font-size: 1.5rem;
+  }
+  .call h2 {
+    font-size: 2.5rem;
+  }
+  .call .btn {
+    font-size: 1.5rem;
+    padding: 15px;
+    width: 350px;
+  }
+  .footer {
+    height: auto !important;
+  }
 }
 
 /* Desktops and laptops ----------- */
@@ -778,6 +848,9 @@ footer .form-control {
     font-size: 1.5rem;
     padding: 15px;
     width: 350px;
+  }
+  .footer {
+    height: auto !important;
   }
 }
 
