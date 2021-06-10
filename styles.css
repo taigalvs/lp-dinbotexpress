@@ -154,7 +154,8 @@ body {
 
 .features-first h2,
 h3,
-p {
+p,
+h4 {
   color: var(--grey-dark);
 }
 
@@ -212,6 +213,7 @@ p {
   font-weight: 600;
   margin: 20px auto 60px auto;
   font-size: 1.5rem;
+  color: var(--white);
 }
 .section-title h2 {
   font-weight: 700;
@@ -265,7 +267,6 @@ p {
 }
 
 .slick-slide img {
-  width: 200px;
   padding-right: 30px;
   filter: contrast(0);
   transition: filter 500ms ease-in-out 0s;
@@ -670,6 +671,7 @@ footer .form-control {
   font-weight: 800;
   letter-spacing: 0.25rem;
   margin-bottom: 20px;
+  color: var(--grey-dark);
 }
 
 .call .btn {
@@ -693,21 +695,370 @@ footer .form-control {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
+@media only screen and (min-device-width: 320px) and (max-device-width: 765px) {
+  .header-intro-dashboard-img {
+    display: none;
+  }
+
+  .header-intro-container {
+    width: 450px;
+    text-align: center;
+    margin-top: 30px !important;
+    padding: 0;
+    padding-right: 7rem !important;
+    margin: 0 auto;
+  }
+  .header-intro-container p {
+    font-size: 1rem;
+    max-width: 100% !important;
+  }
+  .header-intro-buttons .btn {
+    font-size: 1rem;
+  }
+
+  .custom-shape-divider-bottom-1623184899 {
+    display: none;
+  }
+  .header-intro-container h2 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .dinbot-title {
+    font-size: 2rem;
+  }
+
+  .features-first img {
+    width: 250px;
+  }
+  .features-first h2 {
+    font-size: 2rem;
+  }
+  .features-first h4 {
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+  }
+
+  .card-features-first .card-title {
+    font-size: 1.5rem;
+  }
+  .card-features-first .card-text {
+    font-size: 1rem;
+  }
+  .card-features-first {
+    min-height: 700px !important;
+    margin-bottom: 40px;
+  }
+
+  .card-features .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-features {
+    margin-bottom: 50px !important;
+  }
+
+  .last-card {
+    margin-bottom: 100px !important;
+  }
+
+  .card-features .card-text {
+    font-size: 1rem;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .section-title h4 {
+    font-size: 1.25rem;
+    margin-bottom: 20px !important;
+  }
+  .features-list {
+    height: auto !important;
+  }
+  .section-title {
+    margin: 120px auto 10px auto;
+  }
+  .header-testimonials {
+    font-size: 2rem;
+  }
+
+  .slick-slider {
+    margin: 30px;
+  }
+  .card-subtitle small {
+    font-size: 1rem;
+  }
+  .company small {
+    font-size: 0.75rem;
+  }
+
+  .partner-logos p {
+    font-size: 1rem;
+  }
+  .partner-logos h2 {
+    font-size: 2rem;
+  }
+
+  .partner-logos {
+    margin-bottom: 80px;
+  }
+  .price-lable {
+    font-size: 1rem;
+  }
+  .pricing-content .card-title {
+    font-size: 1rem;
+  }
+  .card-price span {
+    font-size: 1rem !important;
+  }
+  .pricing h2 {
+    font-size: 1.75rem;
+  }
+  .pricing .card-price {
+    font-size: 3rem;
+  }
+
+  .pricing ul li {
+    font-size: 1rem;
+  }
+  .pricing .card {
+    height: auto;
+  }
+
+  .pricing-content {
+    margin: 30px auto 100px auto;
+  }
+  .pricing-content .btn {
+    font-size: 1rem;
+  }
+  .call h2 {
+    font-size: 2rem;
+  }
+  .call .btn {
+    font-size: 1.25rem;
+    padding: 15px;
+    width: auto;
+  }
+  .footer {
+    height: auto !important;
+  }
+  .form-group .btn {
+    width: 60% !important;
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+  .card-body {
+    margin: 50px auto;
+  }
+  .profile img {
+    width: 100px;
+    height: 100px;
+  }
+  .copy {
+    font-size: 0.75rem;
+  }
+  .float {
+    right: 90px;
+  }
+  .p-footer {
+    font-size: 1rem;
+  }
+  .footer-list li {
+    font-size: 1rem;
+  }
+  .fale-conosco {
+    font-size: 1.25rem;
+  }
+  .form-control {
+    font-size: 1rem;
+  }
+  .social_footer_ul {
+    margin: 30px auto;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
-  /* Styles */
+  .header-intro-dashboard-img {
+    width: 250px !important;
+    top: 115%;
+    left: 10%;
+  }
+  .header-intro {
+    height: auto;
+  }
+
+  .header-intro-container {
+    width: 380px;
+  }
+  .header-intro-container p {
+    font-size: 1rem;
+    max-width: 100% !important;
+  }
+  .header-intro-buttons .btn {
+    font-size: 1rem;
+  }
+  .custom-shape-divider-bottom-1623184899 {
+    display: none;
+  }
+  .header-intro-container h2 {
+    font-size: 1.5rem;
+  }
+  .dinbot-title {
+    font-size: 1.5rem;
+  }
+
+  .features-first img {
+    width: 250px;
+  }
+  .features-first h2 {
+    font-size: 2rem;
+  }
+  .features-first h4 {
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+  }
+
+  .card-features-first .card-title {
+    font-size: 1.5rem;
+  }
+  .card-features-first .card-text {
+    font-size: 1rem;
+  }
+  .card-features-first {
+    min-height: 790px !important;
+    margin-bottom: 40px;
+  }
+
+  .card-features .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-features {
+    margin-bottom: 50px !important;
+  }
+
+  .last-card {
+    margin-bottom: 100px !important;
+  }
+
+  .card-features .card-text {
+    font-size: 1rem;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .section-title h4 {
+    font-size: 1.25rem;
+    margin-bottom: 20px !important;
+  }
+  .features-list {
+    height: auto !important;
+  }
+  .section-title {
+    margin: 120px auto 10px auto;
+  }
+  .header-testimonials {
+    font-size: 2rem;
+  }
+  .slick-slide img {
+    width: 130px;
+  }
+  .card-subtitle small {
+    font-size: 1rem;
+  }
+  .company small {
+    font-size: 0.75rem;
+  }
+
+  .partner-logos p {
+    font-size: 1rem;
+  }
+  .partner-logos h2 {
+    font-size: 2rem;
+  }
+
+  .partner-logos {
+    margin-bottom: 80px;
+  }
+  .price-lable {
+    font-size: 1rem;
+  }
+  .pricing-content .card-title {
+    font-size: 1rem;
+  }
+  .card-price span {
+    font-size: 1rem !important;
+  }
+  .pricing h2 {
+    font-size: 1.75rem;
+  }
+  .pricing .card-price {
+    font-size: 3rem;
+  }
+
+  .pricing ul li {
+    font-size: 1rem;
+  }
+  .pricing .card {
+    height: auto;
+  }
+
+  .pricing-content {
+    margin: 30px auto 100px auto;
+  }
+  .pricing-content .btn {
+    font-size: 1rem;
+  }
+  .call h2 {
+    font-size: 2rem;
+  }
+  .call .btn {
+    font-size: 1.25rem;
+    padding: 15px;
+    width: auto;
+  }
+  .footer {
+    height: auto !important;
+  }
+  .form-group .btn {
+    width: 60% !important;
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+  .card-body {
+    margin: 50px auto;
+  }
+  .profile img {
+    width: 100px;
+    height: 100px;
+  }
+  .copy {
+    font-size: 0.75rem;
+  }
+  .float {
+    right: 90px;
+  }
+  .p-footer {
+    font-size: 1rem;
+  }
+  .footer-list li {
+    font-size: 1rem;
+  }
+  .fale-conosco {
+    font-size: 1.25rem;
+  }
+  .form-control {
+    font-size: 1rem;
+  }
+  .social_footer_ul {
+    margin: 30px auto;
+  }
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1223px) {
   .header-intro-dashboard-img {
     display: none;
   }
@@ -780,9 +1131,32 @@ footer .form-control {
   .footer {
     height: auto !important;
   }
+  .form-group .btn {
+    width: 60% !important;
+  }
+  .card-body {
+    margin: 50px auto;
+  }
+  .profile img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
-/* Desktops and laptops ----------- */
+@media screen and (min-device-width: 1650px) and (max-device-width: 1900px) and (-webkit-min-device-pixel-ratio: 1) {
+  .header-intro-container p {
+    font-size: 1.2rem;
+  }
+  .header-intro-buttons .btn {
+    font-size: 1.3rem;
+  }
+  .header-intro-container h2 {
+    font-size: 2rem;
+  }
+  .dinbot-title {
+    font-size: 2.5rem;
+  }
+}
 
 @media screen and (min-device-width: 1224px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .header-intro-dashboard-img {
@@ -858,10 +1232,4 @@ footer .form-control {
   .card-features {
     min-height: 650px;
   }
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-device-pixel-ratio: 1.5) {
-  /* Styles */
 }

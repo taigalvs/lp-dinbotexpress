@@ -23,7 +23,7 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 300,
+        breakpoint: 320,
         settings: "unslick",
       },
     ],
