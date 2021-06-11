@@ -661,7 +661,7 @@ footer .form-control {
 }
 
 .call {
-  height: 30vh;
+  height: 35vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -677,15 +677,14 @@ footer .form-control {
 .call .btn {
   background: var(--light-blue) !important;
   border-radius: 100px;
-  width: 300px;
   color: var(--white);
   text-align: center;
   font-size: 1.25rem;
   text-transform: uppercase;
   position: relative;
-  width: 300px;
-  line-height: 64px;
+  width: 280px;
   transition: all 0.2s;
+  padding: 15px;
 }
 
 .call .btn:hover {
@@ -1121,10 +1120,10 @@ footer .form-control {
     font-size: 1.5rem;
   }
   .call h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .call .btn {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 15px;
     width: 350px;
   }
@@ -1216,10 +1215,10 @@ footer .form-control {
     font-size: 1.5rem;
   }
   .call h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .call .btn {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 15px;
     width: 350px;
   }
