@@ -695,9 +695,12 @@ footer .form-control {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 765px) {
+@media only screen and (min-device-width: 370px) and (max-device-width: 765px) {
   .header-intro-dashboard-img {
     display: none;
+  }
+  .header-intro {
+    height: 80vh;
   }
 
   .header-intro-container {
@@ -705,7 +708,7 @@ footer .form-control {
     text-align: center;
     margin-top: 30px !important;
     padding: 0;
-    padding-right: 7rem !important;
+    padding-right: 4rem !important;
     margin: 0 auto;
   }
   .header-intro-container p {
@@ -721,7 +724,7 @@ footer .form-control {
   }
   .header-intro-container h2 {
     font-size: 1.25rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
     letter-spacing: 0.1rem;
   }
   .dinbot-title {
@@ -879,11 +882,9 @@ footer .form-control {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 369px) {
   .header-intro-dashboard-img {
-    width: 250px !important;
-    top: 115%;
-    left: 10%;
+    display: none;
   }
   .header-intro {
     height: auto;
@@ -981,7 +982,7 @@ footer .form-control {
   }
 
   .partner-logos {
-    margin-bottom: 80px;
+    height: 100vh;
   }
   .price-lable {
     font-size: 1rem;
