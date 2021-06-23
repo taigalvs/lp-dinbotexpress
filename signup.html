@@ -74,7 +74,7 @@
   
                                 <div class="form-group input-container">
                                   
-                                  <input type="text" class="form-control input" id="first_name" name="first_name" autocomplete="new-first-name" required/>
+                                  <input type="text" class="form-control input" id="first_name" name="first_name" maxlength="24" autocomplete="new-first-name" required/>
                                   <label for="first_name">Nome</label>
                                   <span>Nome</span>
                                   
@@ -83,7 +83,7 @@
                               </div>
                               <div class="col-12  col-xxl-6">
                                 <div class="form-group input-container">
-                                  <input type="text" class="form-control input" id="last_name" name="last_name" autocomplete="new-last-name" required/>
+                                  <input type="text" class="form-control input" id="last_name" name="last_name" maxlength="40" autocomplete="new-last-name" required/>
                                   <label for="last_name">Sobrenome</label>
                                     <span>Sobrenome</span>
                                 </div>
@@ -108,15 +108,10 @@
                                 <span>CPF</span>
                               </div>
                               <div class="form-group input-container" id="cnpj">
-                                <label for="cnpj">CNPJ<span class="form-required"> *</label>
+                                <label for="cnpj">CNPJ</label>
                                 <input type="text" class="form-control input" name="cnpj" autocomplete="new-cnpj" minlength="14" data-js="cnpj" required>
                                 <span>CNPJ</span>
                               </div>
-                              <div class="card-header">
-                                <div class="card-header-right">
-                                  <h3><i class="far fa-user-circle fa-lg mr-2"></i>Dados de Pagamento</h3>
-                                </div>
-                                </div>
                           </div>
                           <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                     
@@ -142,12 +137,42 @@
                               <label for="confirm-password">Confirmar senha<span class="form-required"> *</label>
                               <input type="password" class="form-control input" id="confirm-password" name="confirm-password" required>
                               <span>Confirmar senha</span>
-                      
-                            </div>
-                              
                             </div>
                           </div>
                         </div>
+                          <div class="row">
+                            <div class="card-header">
+                              <div class="card-header-right">
+                                <h3><i class="far fa-user-circle fa-lg mr-2"></i>Dados de Pagamento</h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-xl-6 col-xxl-6">
+                              <div class="form-group input-container">
+                                <label for="card-owner">Nome impresso</label>
+                                <input type="text" class="form-control input" name="card-owner"required>
+                                <span>Nome impresso</span>
+                              </div>
+                              
+                              <div class="form-group input-container">
+                                <label for="card-val">Validade (MM/AA)</label>
+                                <input type="text" class="form-control input" name="card-val" data-js="date" required>
+                                <span>Validade (MM/AA)</span>
+                              </div>
+                            </div>
+                            <div class="col-12 col-xl-6 col-xxl-6">
+                              <div class="form-group input-container">
+                                <label for="card-number">Número do Cartão</label>
+                                <input type="text" class="form-control input" name="card-number"  data-js="cardNumber" required>
+                                <span>Número do Cartão</span>
+                              </div>
+                              <div class="form-group input-container">
+                                <label for="card-cvv">Código de Segurança</label>
+                                <input type="text" class="form-control input" name="cvv" maxlength="4"  required>
+                                <span>Código de Segurança</span>
+                              </div>
+                            </div>
+                          </div>
+                        
                         <div class="form-group text-center mt-3">
                           <div class="signup-checkbox">
                             <label class="cr-styled">

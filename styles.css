@@ -72,15 +72,16 @@ body {
   margin-top: 70px;
 }
 .header-intro-container h2 {
-  font-size: 3.25rem;
+  font-size: 2.75rem;
   font-weight: 600;
   line-height: 1.25;
 }
 .header-intro-container p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   max-width: 85%;
   line-height: 1.5;
   letter-spacing: 0.06rem;
+  font-weight: 400;
 }
 
 .header-intro img {

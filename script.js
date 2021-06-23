@@ -26,6 +26,20 @@ const masks = {
       .replace(/(\d{4})-(\d)(\d{4})/, "$1$2-$3")
       .replace(/(-\d{4})\d+?$/, "$1");
   },
+  cardNumber(value) {
+    return value
+      .replace(/\D/g, "")
+      .replace(/(\d{4})(\d)/, "$1-$2")
+      .replace(/(\d{4})(\d)/, "$1-$2")
+      .replace(/(\d{4})(\d)/, "$1-$2")
+      .replace(/(-\d{4})\d+?$/, "$1");
+  },
+  date(value) {
+    return value
+      .replace(/\D+/g, "")
+      .replace(/(\d{2})(\d)/, "$1/$2")
+      .replace(/(\/\d{2})\d+?$/, "$1");
+  },
 };
 
 document.querySelectorAll("input").forEach(($input) => {
